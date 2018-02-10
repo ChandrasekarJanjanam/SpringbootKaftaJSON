@@ -1,7 +1,7 @@
 # SpringbootKaftaJSON
 This project demonstartes how configure, produce and consume JSON payload using Apache Kafka and Springboot.
 
-Prerequisite:
+Prerequisite: 
 please follow below instructions before executing this project
 
 Kafka Installation
