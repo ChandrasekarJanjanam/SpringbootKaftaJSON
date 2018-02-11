@@ -21,12 +21,12 @@ public class SpringKafkaApplication implements CommandLineRunner{
 	
 	@Override
 	public void run(String... arg0) throws Exception {
-		// Send Mary customer
-		Customer mary = new Customer("chandra", 32);
-		producer.send(mary);
+		// Send chandra customer
+		Customer chandra = new Customer("chandra", 32);
+		producer.send(chandra);
 		
-		// Send Peter customer
-		Customer peter = new Customer("sekar", 23);
-		producer.send(peter);
+		// Send sekar customer
+		Customer sekar = new Customer("sekar", 23);
+		producer.send(sekar);
 	}
 }
